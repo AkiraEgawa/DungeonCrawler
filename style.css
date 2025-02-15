@@ -1,0 +1,11 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+}
+
+body {
+    background-image: url('Images/StoneWall.jpg');
+    background-repeat: repeat;
+    background-size: 20vw;
+}
