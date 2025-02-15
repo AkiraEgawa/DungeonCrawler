@@ -10,6 +10,13 @@ body {
     background-size: 20vw;
 }
 
+ul, li {
+    text-align: left;
+    font-size: 2.78vw;
+    color: white;
+    font-family: 'Jaini', serif;
+}
+
 p {
     text-align: center;
     font-size: 2.78vw;
