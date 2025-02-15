@@ -17,9 +17,20 @@ h1 {
     font-family: 'Jacques Francois Shadow', serif;
 }
 
+h2 {
+    text-align: center;
+    font-size: 3.33vw;
+    color: white;
+    font-family: 'Jacques Francois Shadow', serif;
+}
+
 p {
     text-align: center;
     font-size: 2.77vw;
     color: white;
     font-family: 'Jaini', serif;
+}
+
+#nav {
+    text-align: center;
 }
