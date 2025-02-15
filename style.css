@@ -9,3 +9,17 @@ body {
     background-repeat: repeat;
     background-size: 20vw;
 }
+
+h1 {
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+    font-family: 'Jacques Francois Shadow', serif;
+}
+
+p {
+    text-align: center;
+    font-size: 2.77vw;
+    color: white;
+    font-family: 'Jaini', serif;
+}
