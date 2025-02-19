@@ -64,6 +64,13 @@ h3 {
     background-color: rgba(0, 0, 0, 0);
   }
   
+button {
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
   .collapsible:after {
     content: '\002B';
     font-weight: bold;

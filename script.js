@@ -16,3 +16,27 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+
+
+function changeImage(button) {
+  const img = button.querySelector('img');
+  const currentSrc = img.src;
+  const currentName = currentSrc.split('/').pop(); // Gets filename from path
+  
+  // Check if it's currently showing the "New" version
+  const isNewVersion = currentName.startsWith('New');
+  const baseName = isNewVersion ? 
+      currentName.slice(3) : // Remove 'New' prefix
+      currentName;         // Keep original name
+      
+  // Create the new filename
+  const newFilename = isNewVersion ? 
+      baseName :            // Go back to original
+      `New${baseName}`;    // Add New prefix
+      
+  // Construct full path
+  const newPath = `Images/${newFilename}`;
+  
+  img.src = newPath;
+}
